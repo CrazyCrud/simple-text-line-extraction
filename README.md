@@ -11,6 +11,11 @@ docker logs --tail 3 jupyter_text_line_extraction
 
 ## Implementation
 
-You can extract baselines with *dhSegment*
+You can extract baselines with [dhSegment](https://dhsegment.readthedocs.io/en/latest/).
 
-For text recognition software text line images are expected as input.
+To extract text line images the line height needs to be calculated which is done in the example code.
+
+## TODO
+
+- [ ] Include preprocessing step (baseline extraction)
+- [ ] Include cropping the line images
