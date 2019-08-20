@@ -6,7 +6,7 @@ docker-compose up -d
 ```
 To receive the unique token to access Jupyter run:
 ```
-docker logs --tail 3 jupyter
+docker logs --tail 3 jupyter_text_line_extraction
 ```
 
 ## Implementation
